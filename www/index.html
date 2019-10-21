@@ -5,58 +5,60 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Sign up</title>
+    <title>Document</title>
 
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
     <header>
-        <h1><a href="http://localhost:3000/site.html">Hackathones</a></h1>
+
+        <nav class="menu">
+            <h2><a href="http://localhost:3000/index.html">Menu</a></h2>
+            <ul>
+                <li><a href="http://localhost:3000/ranking.html">Ranking</a></li>
+                <li><a href="#">Events calendar</a></li>
+                <li><a href="#">About us</a></li>
+                <li><a href="http://localhost:3000/login.html">Log In</a> | <a
+                        href="http://localhost:3000/signup.html">Sign up</a></li>
+            </ul>
+        </nav>
+        <h1>hackathones</h1>
+
+        <button type="button"> Plan your hackaton</button>
+
+
     </header>
 
-    <section id="registro" class="auth">
-        <form action="">
-            <h2>Sign up to see an event or participate</h2>
+    <main>
+        <section class="events">
+            <h2>Events</h2>
+            <p><a href="http://localhost:3000/newevent.html">New Event</a></p>
 
-            <fieldset>
-                <label for="name">Nam</label>
-                <input type="text" name="name" id="name" />
-            </fieldset>
+        </section>
 
-            <fieldset>
-                <label for="email">Email</label>
-                <input type="email" name="email" id="email" />
-            </fieldset>
+        <section class="ranking">
+            <h2>Latest Ranking</h2>
 
-            <fieldset>
-                <label for="pass1">Password</label>
-                <input type="password" name="pass1" id="pass1" />
-            </fieldset>
+        </section>
 
-            <fieldset>
-                <label for="pass2">Repeat password</label>
-                <input type="password" name="pass2" id="pass2" />
-            </fieldset>
+        <section class="companies">
+            <h2>Partners</h2>
 
-            <button>Next</button>
-
-            <p>Have an account?   <a href="http://localhost:3000//login.html">Log in</a></p>
-
-        </form>
-    </section>
+        </section>
+    </main>
 
     <footer>
-    
+
         <nav class="services">
             <h3>Hackatones</h3>
             <h4>(c) 2019, Hackathones Inc.</h4>
             <ul>
-                <li><a href="/">Privacy Policy</a></li>
-                <li><a href="/">Terms of Service</a></li>
+                <li><a href="http://localhost:3000/privacy.html">Privacy Policy</a></li>
+                <li><a href="http://localhost:3000/terms.html">Terms of Service</a></li>
             </ul>
         </nav>
-    
+
         <nav class="social">
             <h3>Social</h3>
             <ul>
@@ -66,18 +68,18 @@
                 <li><a href="https://www.facebook.com/">Facebook</a></li>
             </ul>
         </nav>
-    
+
         <section class="contact">
             <h3>Contact us</h3>
             <address>
                 <a href="mailto: info@hackathons.com">Mailto: info@hackathons.com</a><br>
                 <a href="/">Ph: 555 555 555</a>
             </address>
-    
+
         </section>
-    
+
     </footer>
-    
+
     <script type="module" src="/js/main.js"></script>
 </body>
 

@@ -5,54 +5,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>New Event</title>
+    <title>Sign up</title>
 
     <link rel="stylesheet" href="/css/style.css" />
 </head>
 
 <body>
     <header>
-        <h1><a href="http://localhost:3000/site.html">Hackathones</a></h1>
-
-            <nav class="menu">
-                <h2>Menu</h2>
-                <ul>
-                    <li><a href="#">Ranking</a></li>
-                    <li><a href="#">Events calendar</a></li>
-                    <li><a href="#">About us</a></li>
-                    <li><a href="/">Sign in</a> | <a href="/">Sign up</a></li>
-                </ul>
-            </nav>
-          
+        <h1><a href="http://localhost:3000/index.html">Hackathones</a></h1>
     </header>
 
     <section id="registro" class="auth">
         <form action="">
-            <h2>Add a Hackathon</h2>
+            <h2>Sign up to see an event or participate</h2>
 
             <fieldset>
-                <label for="name">Hackathon name:</label>
+                <label for="name">Nam</label>
                 <input type="text" name="name" id="name" />
-            </fieldset>
-
-            <fieldset>
-                <label for="start">Start date:</label>
-                <input type="date" name="start-event" id="start" />
-            </fieldset>
-
-            <fieldset>
-                <label for="end">End date:</label>
-                <input type="date" name="end-event" id="end" />
-            </fieldset>
-
-            <fieldset>
-                <label for="name">Where:</label>
-                <input type="text" name="city" id="city" />
-            </fieldset>
-
-            <fieldset>
-                <label for="name">Website:</label>
-                <input type="text" name="city" id="city" />
             </fieldset>
 
             <fieldset>
@@ -60,11 +29,19 @@
                 <input type="email" name="email" id="email" />
             </fieldset>
 
-            
+            <fieldset>
+                <label for="pass1">Password</label>
+                <input type="password" name="pass1" id="pass1" />
+            </fieldset>
 
-            <button>Send</button>
+            <fieldset>
+                <label for="pass2">Repeat password</label>
+                <input type="password" name="pass2" id="pass2" />
+            </fieldset>
 
-            
+            <button>Next</button>
+
+            <p>Have an account?   <a href="http://localhost:3000//login.html">Log in</a></p>
 
         </form>
     </section>
@@ -100,7 +77,7 @@
         </section>
     
     </footer>
-
+    
     <script type="module" src="/js/main.js"></script>
 </body>
 
